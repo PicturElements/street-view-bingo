@@ -1,0 +1,23 @@
+{
+	"name": "Street View Bingo",
+	"version": "1.0",
+	"description": "Create and play Street View Bingo in Google Maps",
+	"icons": {
+		"16": "media/icons/browser/16px.png",
+		"32": "media/icons/browser/32px.png",
+		"48": "media/icons/browser/48px.png",
+		"128": "media/icons/browser/128px.png"
+	},
+	"permissions": [
+		"storage",
+		"https://www.google.com/maps/"
+	],
+	"content_scripts": [
+		{
+			"matches": ["https://www.google.com/maps/*"],
+			"css": ["src/css/content.css"],
+			"js": ["src/js/content.js"]
+		}
+	],
+	"manifest_version": 2
+}

@@ -1,0 +1,29 @@
+{
+  "name": "street-view-bingo",
+  "version": "1.0.0",
+  "description": "Create and play Street View Bingo in Google Maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PicturElements/street-view-bingo.git"
+  },
+  "keywords": [
+    "game",
+    "google",
+    "street",
+    "view",
+    "maps"
+  ],
+  "author": "PicurElements",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PicturElements/street-view-bingo/issues"
+  },
+  "homepage": "https://github.com/PicturElements/street-view-bingo#readme",
+  "dependencies": {
+    "@qtxr/utils": "^1.46.0"
+  }
+}

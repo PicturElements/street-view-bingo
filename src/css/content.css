@@ -1,0 +1,26 @@
+:root {
+	--svb-card-background: white;
+	--svb-dark-card-background: #222;
+	--svb-card-color: #555;
+	--svb-dark-card-color: #d3d3d3;
+	--svb-card-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+#svb-action-bar {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	background: var(--svb-card-background);
+	border-radius: 8px;
+	padding: 0 10px;
+	border: none;
+	box-shadow: var(--svb-card-shadow);
+	margin-right: 10px;
+	color: var(--svb-card-color);
+	font-size: 90%;
+}
+
+.app-imagery-mode #svb-action-bar {
+	background: var(--svb-dark-card-background);
+	color: var(--svb-dark-card-color);
+}
